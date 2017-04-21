@@ -1,0 +1,28 @@
+{
+  "name": "babel-preset-lusk",
+  "description": "Balel preset used at Lusk",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/luskhq/babel-preset-lusk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luskhq/babel-preset-lusk/issues"
+  },
+  "homepage": "https://github.com/luskhq/babel-preset-lusk",
+  "author": "Pavel Volek <me@pavelvolek.cz>",
+  "license": "ISC",
+  "keywords": [
+    "babel",
+    "babelpreset"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "babel-plugin-ramda": "^1.2.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1"
+  }
+}
