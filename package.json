@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-lusk",
-  "description": "Balel preset used at Lusk",
-  "version": "0.0.1",
+  "description": "Babel preset used at Lusk",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/luskhq/babel-preset-lusk.git"
@@ -12,10 +12,7 @@
   "homepage": "https://github.com/luskhq/babel-preset-lusk",
   "author": "Pavel Volek <me@pavelvolek.cz>",
   "license": "ISC",
-  "keywords": [
-    "babel",
-    "babelpreset"
-  ],
+  "keywords": ["babel"],
   "main": "index.js",
   "dependencies": {
     "babel-plugin-ramda": "^1.2.0",

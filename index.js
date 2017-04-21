@@ -11,8 +11,8 @@ module.exports = {
     require('babel-preset-react'),
   ],
   plugins: [
-    require('babel-plugin-ramda'),
-    require('babel-plugin-transform-decorators-legacy'),
+    require('babel-plugin-ramda').default,
+    require('babel-plugin-transform-decorators-legacy').default,
     require('babel-plugin-transform-class-properties'),
     require('babel-plugin-transform-object-rest-spread'),
   ],
