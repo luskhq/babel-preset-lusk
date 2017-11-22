@@ -12,10 +12,14 @@
   "homepage": "https://github.com/luskhq/babel-preset-lusk",
   "author": "Pavel Volek <me@pavelvolek.cz>",
   "license": "ISC",
-  "keywords": ["babel"],
+  "keywords": [
+    "babel",
+    "preset"
+  ],
   "main": "index.js",
   "dependencies": {
     "babel-plugin-ramda": "^1.2.0",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "babel-plugin-transform-object-rest-spread": "^6.23.0",
